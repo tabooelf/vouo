@@ -40,6 +40,9 @@ return [
         ],
 
         'mysql' => [
+            'dump_command_path' => '/path/to/the/binary',
+            'dump_command_timeout' => 60 * 5,
+            'dump_using_single_transaction' => true,
             'driver' => 'mysql',
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '3306'),

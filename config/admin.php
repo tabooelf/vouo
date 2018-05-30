@@ -71,9 +71,11 @@ return [
         'disk' => 'admin',
 
         'directory' => [
-            'image' => 'images',
-            'file'  => 'files',
+            'image' => '',
+            'file'  => '',
         ],
+
+        'host' => '/uploads/'
     ],
 
     /*
@@ -151,6 +153,8 @@ return [
      * Settings for extensions.
      */
     'extensions' => [
-
+        'media-manager' => [
+            'disk' => 'uploads'   // 指向config/filesystem.php中设置的disk
+        ],
     ],
 ];
