@@ -10,6 +10,8 @@ use Illuminate\Database\Eloquent\Model;
 class Category extends Model
 {
     use ModelTree, AdminBuilder;
+    protected $fillable = ['name', 'order'];
+    protected $hidden = [];
 
     public function __construct(array $attributes = [])
     {

@@ -11,8 +11,18 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/detail', function () {
+    return view('detail');
 });
+
+// Route::get('/category/{$category}', 'CategoryController@show');
+Route::get('categories/{category}', 'CategoriesController@show')->name('categories.show');
+Route::get('categories', 'CategoriesController@all')->name('categories.all');
+
+Route::get('goods/{good}', 'GoodsController@show')->name('goods.show');
+
+Route::resource('comments', 'CommentsController', ['only' => ['store', 'create'] ]);
+
+Route::get('/', 'HomeController@index')->name('index');
 
 Route::post('/uploadFile', 'UploadsController@uploadImg');

@@ -13,4 +13,5 @@ Route::group([
     $router->get('/', 'HomeController@index');
     $router->resource('category', CategoryController::class);
     $router->resource('good', GoodController::class);
+    $router->resource('comments', CommentsController::class);
 });
