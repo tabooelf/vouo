@@ -841,6 +841,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 1. Common and reset */
 
 a,
@@ -869,6 +886,23 @@ textarea:focus {
   outline: none;
   text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1135,6 +1169,23 @@ html {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Remove the margin in all browsers (opinionated).
  */
@@ -1142,6 +1193,23 @@ html {
 body {
   margin: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1608,6 +1676,23 @@ ol {
   padding: 0;
   margin: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2338,9 +2423,9 @@ button.ps-btn {
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  background-color: #776565;
-  background-image: -webkit-linear-gradient(-360deg, #ff5858, #ff5858);
-  background-image: linear-gradient(90deg, #ff5858, #ff5858);
+  background-color: #c56420;
+  background-image: -webkit-linear-gradient(-360deg, #c56420, #c56420);
+  background-image: linear-gradient(90deg, #c56420, #c56420);
 }
 
 .ps-btn i,
@@ -4201,6 +4286,23 @@ button.ps-btn--fullwidth {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*home-slider*/
 
 .ps-banner--home-1 {
@@ -4364,9 +4466,9 @@ button.ps-btn--fullwidth {
   color: #fff;
   background-color: transparent;
   border-color: #fff;
-  background-color: #776565;
-  background-image: -webkit-linear-gradient(left, #776565, #ff5858);
-  background-image: linear-gradient(to right, #776565, #ff5858);
+  background-color: #c56420;
+  background-image: -webkit-linear-gradient(left, #c56420, #c56420);
+  background-image: linear-gradient(to right, #c56420, #c56420);
 }
 
 .ps-pagination .pagination li.active>a:after {
@@ -5951,7 +6053,7 @@ button.ps-btn--fullwidth {
   margin-bottom: 15px;
   font-family: "Pacifico", cursive;
   font-size: 24px;
-  color: #776565;
+  color: #c56420;
 }
 
 .ps-section__title {
@@ -5980,7 +6082,8 @@ button.ps-btn--fullwidth {
   transform: translateY(-50%);
   width: 100px;
   height: 20px;
-  background-color: #e9e9e9;
+  /*background-color: #e9e9e9;*/
+  background-color: #c56420;
   z-index: 10;
 }
 
@@ -6217,7 +6320,7 @@ button.ps-btn--fullwidth {
   width: 100%;
   height: 100%;
   z-index: 10;
-  background-color: rgba(41, 32, 60, 0.75);
+  /*background-color: rgba(41, 32, 60, 0.75);*/
 }
 
 .ps-section--hero .ps-section__content {
@@ -6364,9 +6467,9 @@ button.ps-btn--fullwidth {
 
 .ps-section--home-testimonial .owl-slider .owl-dot.active {
   width: 70px;
-  background-color: #776565;
-  background-image: -webkit-linear-gradient(left, #776565, #ff5858);
-  background-image: linear-gradient(to right, #776565, #ff5858);
+  background-color: #c56420;
+  background-image: -webkit-linear-gradient(left, #c5875b, #c56420);
+  background-image: linear-gradient(to right, #c5875b, #c56420);
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
@@ -6786,6 +6889,23 @@ button.ps-btn--fullwidth {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*------------------------------------*    #Skrollr plugin
 \*------------------------------------*/
 
@@ -6826,6 +6946,23 @@ button.ps-btn--fullwidth {
 .skrollr-parallax__image.skrollable-between {
   display: block;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7089,12 +7226,46 @@ button.ps-btn--fullwidth {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* When Skrollr plugin is active remove bg image and reset bg property */
 
 .skrollr .parallax {
   background: transparent !important;
   /* !important override inline style */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7230,6 +7401,23 @@ button.ps-btn--fullwidth {
   vertical-align: middle;
   text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7492,6 +7680,23 @@ button.ps-btn--fullwidth {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Parallax-section background images
  */
@@ -7503,6 +7708,23 @@ button.ps-btn--fullwidth {
 .parallax--img-cat2 {
   background-image: url(http://lorempixel.com/1600/1400/cats/2);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7791,8 +8013,8 @@ button.ps-btn--fullwidth {
 }
 
 .menu>li>a:hover {
-  color: #ff5858;
-  border-color: #776565;
+  color: #c56420;
+  border-color: #c56420;
 }
 
 .menu>li .sub-menu {
@@ -7801,8 +8023,8 @@ button.ps-btn--fullwidth {
 }
 
 .menu>li.current>a {
-  color: #776565;
-  border-color: #776565;
+  color: #c56420;
+  border-color: #c56420;
 }
 
 .menu>li.menu-item-has-children>a:after {
@@ -9297,6 +9519,23 @@ button.ps-btn--fullwidth {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 4. MODULES */
 
 .header {
@@ -9356,13 +9595,13 @@ button.ps-btn--fullwidth {
   -moz-border-radius: 35px;
   -ms-border-radius: 35px;
   border-radius: 35px;
-  /*border-color: #776565;*/
+  /*border-color: #c56420;*/
 }
 
 .header .nav_menu>li>a:hover,
 .header .nav_menu>li>a:active {
-  color: #ff5858;
-  border-color: #776565;
+  color: #c56420;
+  border-color: #c56420;
 }
 
 @media (max-width: 1199px) {
@@ -9488,7 +9727,7 @@ button.ps-btn--fullwidth {
 
 .header--2 .header__top .ps-social-header a {
   color: #fff;
-  border-color: #4a4a4a;
+  border-color: #c56420;
 }
 
 .header--2 .header__top .ps-social-header a:hover {
@@ -9496,7 +9735,7 @@ button.ps-btn--fullwidth {
 }
 
 .header--2 .header__top .ps-search-btn {
-  border-color: #4a4a4a;
+  border-color: #c56420;
 }
 
 .header--2 .header__top .ps-search-btn i {
@@ -9513,12 +9752,12 @@ button.ps-btn--fullwidth {
   -moz-box-shadow: none;
   -ms-box-shadow: none;
   box-shadow: none;
-  background-color: #776565;
+  background-color: #c56420;
   color: #fff;
 }
 
 .header--2 .ps-dropdown>a:last-child {
-  border-right: 1px solid #4a4a4a;
+  border-right: 1px solid #c56420;
 }
 
 .header--2 .menu>li>a {
@@ -9526,11 +9765,11 @@ button.ps-btn--fullwidth {
 }
 
 .header--2 .menu>li>a:hover {
-  color: #776565;
+  color: #c56420;
 }
 
 .header--2 .menu>li.current>a {
-  color: #776565;
+  color: #c56420;
 }
 
 @media (max-width: 1199px) {
@@ -9655,12 +9894,12 @@ button.ps-btn--fullwidth {
 .ps-footer {
   color: #efefef !important;
   padding: 60px 0 0px;
-  background-color: #3e2e2e;
+  background-color: #4d2c19;
 }
 
 .ps-footer .last-line {
   padding: 10px 0 0;
-  background-color: #291f1f;
+  background-color: #442817;
   text-align: center;
   margin-top: 25px;
 }
@@ -9675,17 +9914,17 @@ button.ps-btn--fullwidth {
 
 .ps-widget--footer .ps-widget__content {
   margin-bottom: 16px;
-  color: #c0c0c0;
+  color: #e5e5e5;
 }
 
 .ps-widget--footer .ps-widget__content strong {
   display: inline;
   margin-bottom: 10px;
   margin-right: 10px;
-  border: 1px solid #a0a0a0;
+  border: 1px solid #ddd;
   padding: 4px 10px;
   font-family: "Varela Round";
-  color: #a0a0a0;
+  color: #ccc;
   font-weight: 400;
 }
 
@@ -9707,6 +9946,23 @@ button.ps-btn--fullwidth {
   padding-left: 15px;
   padding-right: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -10565,6 +10821,23 @@ html .bg--parallax {
 .pl-100 {
   padding-left: 100px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

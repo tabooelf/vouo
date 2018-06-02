@@ -1,5 +1,6 @@
 <section class="ps-section ps-section--map" id="connact">
     <div id="contact-map" data-address="New York, NY" data-title="BAKERY LOCATION!" data-zoom="17"></div>
+
     <div class="ps-delivery">
         <div class="ps-delivery__header">
             <h3>联系我们</h3>
@@ -49,3 +50,14 @@
         </div>
     </div>
 </section>
+
+{{-- <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=NW1Xw3sWyPZHVrQ1MRer5GbV7RMgFldQ"></script>
+<script type="text/javascript">
+    // 百度地图API功能
+    var map = new BMap.Map("allmap");
+    var point = new BMap.Point(116.404, 39.915);
+    map.centerAndZoom(point, 15);
+    var marker = new BMap.Marker(point);  // 创建标注
+    map.addOverlay(marker);               // 将标注添加到地图中
+    marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+</script> --}}

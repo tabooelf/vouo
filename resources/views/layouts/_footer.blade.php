@@ -33,7 +33,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                <a class="ps-subscribe__logo" href="index.html"><img src="{{ asset('images/qr_code.gif') }}" alt=""></a>
+                <a class="ps-subscribe__logo" href="#" style="margin-left: -30px;"><img src="{{ asset('images/qr_code.jpg') }}" alt=""></a>
             </div>
         </div>
     </div>
