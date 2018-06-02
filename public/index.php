@@ -7,8 +7,8 @@
  * @author   Taylor Otwell <taylor@laravel.com>
  */
 
-define('LARAVEL_START', microtime(true));
-
+// define('LARAVEL_START', microtime(true));
+// echo "1111";
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader
