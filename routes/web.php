@@ -11,9 +11,17 @@
 |
 */
 
-Route::get('/detail', function () {
-    return view('detail');
-});
+Route::get('/intro', function () {
+    return view('intro');
+})->name('intro');
+
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
+
+Route::get('/contact', function () {
+    return view('contact');
+})->name('contact');
 
 // Route::get('/category/{$category}', 'CategoryController@show');
 Route::get('categories/{category}', 'CategoriesController@show')->name('categories.show');

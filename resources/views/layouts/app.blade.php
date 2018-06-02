@@ -13,8 +13,8 @@
     <link href="apple-touch-icon.png" rel="apple-touch-icon">
     <link href="favicon.png" rel="icon">
     <meta name="author" content="">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
+    <meta name="keywords" content="@section('keywords', 'keywords')">
+    <meta name="description" content="@section('description', 'description')">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>@yield('title', '为优美烘焙')</title>
     <!-- Fonts-->

@@ -9943,6 +9943,14 @@ opacity:1
 
 
 
+
+
+
+
+
+
+
+
 /* 1. Common and reset */
 
 a,
@@ -9971,6 +9979,14 @@ textarea:focus {
   outline: none;
   text-decoration: none;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -10271,6 +10287,14 @@ html {
 
 
 
+
+
+
+
+
+
+
+
 /**
  * Remove the margin in all browsers (opinionated).
  */
@@ -10278,6 +10302,14 @@ html {
 body {
   margin: 0;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -10761,6 +10793,14 @@ ol {
   padding: 0;
   margin: 0;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -13388,6 +13428,14 @@ button.ps-btn--fullwidth {
 
 
 
+
+
+
+
+
+
+
+
 /*home-slider*/
 
 .ps-banner--home-1 {
@@ -14639,7 +14687,7 @@ button.ps-btn--fullwidth {
 }
 
 .ps-award__icon {
-  width: 100px;
+  width: 140px;
   margin: 0 auto 20px;
 }
 
@@ -14659,7 +14707,6 @@ button.ps-btn--fullwidth {
   display: block;
   font-family: "Libre Baskerville";
   font-size: 14px;
-  font-style: italic;
   color: #505050;
 }
 
@@ -15991,6 +16038,14 @@ button.ps-btn--fullwidth {
 
 
 
+
+
+
+
+
+
+
+
 /*------------------------------------*    #Skrollr plugin
 \*------------------------------------*/
 
@@ -16031,6 +16086,14 @@ button.ps-btn--fullwidth {
 .skrollr-parallax__image.skrollable-between {
   display: block;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -16328,12 +16391,28 @@ button.ps-btn--fullwidth {
 
 
 
+
+
+
+
+
+
+
+
 /* When Skrollr plugin is active remove bg image and reset bg property */
 
 .skrollr .parallax {
   background: transparent !important;
   /* !important override inline style */
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -16486,6 +16565,14 @@ button.ps-btn--fullwidth {
   vertical-align: middle;
   text-align: center;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -16782,6 +16869,14 @@ button.ps-btn--fullwidth {
 
 
 
+
+
+
+
+
+
+
+
 /**
  * Parallax-section background images
  */
@@ -16793,6 +16888,14 @@ button.ps-btn--fullwidth {
 .parallax--img-cat2 {
   background-image: url(http://lorempixel.com/1600/1400/cats/2);
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -18621,6 +18724,14 @@ button.ps-btn--fullwidth {
 
 
 
+
+
+
+
+
+
+
+
 /* 4. MODULES */
 
 .header {
@@ -19031,6 +19142,14 @@ button.ps-btn--fullwidth {
   padding-left: 15px;
   padding-right: 0;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -19906,6 +20025,14 @@ html .bg--parallax {
 .pl-100 {
   padding-left: 100px;
 }
+
+
+
+
+
+
+
+
 
 
 

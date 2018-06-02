@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', isset($category) ? $category->name : '全部商品')
+@section('title', isset($category) ? 'VOUO蛋糕官网-' . $category->name : 'VOUO蛋糕官网-全部商品')
 
 @section('header')
     @include('layouts._header_2')
